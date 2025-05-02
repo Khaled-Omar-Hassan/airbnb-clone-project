@@ -18,7 +18,7 @@ The Airbnb Clone Project is a real-world application designed to simulate the de
 
 ### Roles and Responsibilities
 
-#### Backend Developer
+#### **Backend Developer**
 **Responsibilities:**
 - Implement API endpoints using Django REST Framework
 - Design and develop business logic for core features
