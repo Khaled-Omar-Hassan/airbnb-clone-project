@@ -39,6 +39,18 @@ Simple rules:
 - Easy to use on mobile
 
 
+## Project Roles and Responsibilities.
+| Role                | Responsibilities                                                               |
+|---------------------|-------------------------------------------------------------------------------|
+| Project Manager     | - Oversees timeline<br>- Coordinates team<br>- Manages deliverables           |
+| Frontend Developers | - Implements UI components<br>- Ensures responsive design                     |
+| Backend Developers  | - Builds APIs<br>- Manages database<br>- Implements business logic            |
+| Designers           | - Creates mockups<br>- Maintains design system<br>- Ensures UX quality        |
+| QA/Testers          | - Writes test cases<br>- Performs testing<br>- Reports bugs                   |
+| DevOps Engineers    | - Manages deployment<br>- Maintains CI/CD pipeline<br>- Configures servers    |
+| Product Owner       | - Defines requirements<br>- Prioritizes features<br>- Represents stakeholders |
+| Scrum Master        | - Facilitates agile processes<br>- Removes blockers<br>- Organizes meetings   |
+
 ## UI Component Patterns
 ### Planned Components
 1. **Navbar**
