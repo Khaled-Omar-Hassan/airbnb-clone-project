@@ -1,12 +1,12 @@
 # airbnb-clone-project
 
-## Front-End
+# Front-End
 
-## Back-End
-### Project Overview
+# Back-End
+## Project Overview
 The Airbnb Clone Project is a real-world application designed to simulate the development of the robust booking platform Airbnb. It involves a deep dive into full-stack development, focusing on backend systems, database design, API development, and application security. This project enables learners to understand complex architectures, workflows, and collaborative team dynamics while building a scalable web application.
 
-### Tech Stacks
+## Tech Stacks
  - **Django:** A high-level Python web framework used for building the RESTful API.  
  - **Django REST Framework:** Provides tools for creating and managing RESTful APIs.  
  - **PostgreSQL:** A powerful relational database used for data storage.  
@@ -16,9 +16,9 @@ The Airbnb Clone Project is a real-world application designed to simulate the de
  - **Docker:** Containerization tool for consistent development and deployment environments.  
  - **CI/CD Pipelines:** Automated pipelines for testing and deploying code changes.  
 
-### Team Roles
+## Team Roles
 
-#### **Backend Developer**
+### **Backend Developer**
 - Implement API endpoints using Django REST Framework
 - Design and develop business logic for core features
 - Ensure secure authentication and authorization
@@ -30,7 +30,7 @@ The Airbnb Clone Project is a real-world application designed to simulate the de
 - Create property listing and booking systems
 - Integrate payment processing
 
-#### Database Administrator (DBA)
+### Database Administrator (DBA)
 - Design and optimize database schemas
 - Ensure data integrity and security
 - Implement performance optimizations
@@ -41,7 +41,7 @@ The Airbnb Clone Project is a real-world application designed to simulate the de
 - Monitor and optimize query performance
 - Implement database backup strategies
 
-#### DevOps Engineer
+### DevOps Engineer
 - Manage deployment and infrastructure
 - Ensure system reliability and scalability
 - Implement CI/CD pipelines
@@ -52,7 +52,7 @@ The Airbnb Clone Project is a real-world application designed to simulate the de
 - Implement Celery for async tasks
 - Manage deployment automation
 
-#### QA Engineer
+### QA Engineer
 - Ensure software quality and reliability
 - Identify and report bugs
 - Validate system performance
@@ -63,7 +63,7 @@ The Airbnb Clone Project is a real-world application designed to simulate the de
 - Conduct security testing
 - Validate performance benchmarks
 
-### Technology Stack
+## Technology Stack
 
 | Technology | Purpose | Key Features |
 |------------|---------|--------------|
