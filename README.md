@@ -38,6 +38,29 @@ Simple rules:
 - Fast loading
 - Easy to use on mobile
 
+### Color Styles
+- **Primary Color:** `#FF5A5F` (Used for buttons)
+- **Secondary Color:** `#008489` (Used for secondary buttons)
+- **Background:** `#FFFFFF` (Main background color)
+- **Text Primary:** `#222222` (Main text color)
+- **Text Secondary:** `#717171` (Subtle text and captions)
+- **Border/Divider:** `#EBEBEB` (Light borders between sections)
+
+### Typography
+- **Font Family:** Circular 
+- **Font Weights:**
+  - Regular: `400` (Body text)
+  - Medium: `500` (Subheadings)
+  - Bold: `700` (Headings)
+- **Font Sizes:**
+  - Body Text: `16px`
+  - Small Text: `14px`
+  - Headings: `24px-32px`
+  - Section Titles: `18px`
+
+### Why Design Properties Matter
+1. **Consistency** - Ensures all screens look like they belong to the same app
+2. **Efficiency** - Developers can reuse styles instead of creating new ones
 
 ## Project Roles and Responsibilities.
 | Role                | Responsibilities                                                               |
