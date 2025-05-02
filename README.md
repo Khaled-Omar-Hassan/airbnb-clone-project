@@ -149,7 +149,7 @@ Provides comprehensive OpenAPI documentation for both REST and GraphQL interface
 Implements indexing and caching strategies to ensure fast query responses. This feature improves user experience by reducing load times during searches and other data-intensive operations.
 
 
-## Key Security Implementations
+## API Security
 
 ### 1. Authentication
 **Implementation:**  
@@ -157,7 +157,6 @@ Implements indexing and caching strategies to ensure fast query responses. This 
 - Password hashing (bcrypt)
 - Multi-factor authentication (optional)
 
-**Why Crucial:**  
 Prevents unauthorized access to user accounts and protects sensitive personal information like contact details and payment methods.
 
 ### 2. Authorization
@@ -165,7 +164,6 @@ Prevents unauthorized access to user accounts and protects sensitive personal in
 - Property ownership verification
 - Permission checks on all API endpoints
 
-**Why Crucial:**  
 Ensures users can only modify their own properties/bookings and prevents hosts from altering other users' reservations or reviews.
 
 ### 3. Rate Limiting
@@ -174,7 +172,6 @@ Ensures users can only modify their own properties/bookings and prevents hosts f
 - IP-based rate limiting
 - Login attempt restrictions
 
-**Why Crucial:**  
 Protects against brute force attacks and prevents system overload from DDoS attacks or API abuse.
 
 ### 4. Data Protection
@@ -183,6 +180,12 @@ Protects against brute force attacks and prevents system overload from DDoS atta
 - HTTPS for all communications
 - Regular security audits
 
-**Why Crucial:**  
 Protects sensitive user information from breaches and ensures compliance with data protection regulations (GDPR, CCPA).
 
+
+## CI/CD Pipeline
+### Key Tools
+- **GitHub Actions**: Primary CI/CD automation
+- **Docker**: Containerization
+- **PostgreSQL**: Database migrations
+- **Redis**: Cache management in deployment
