@@ -114,3 +114,36 @@ The Airbnb Clone Project is a real-world application designed to simulate the de
 **Relationships:**
 - Belongs to a User (the reviewer) (Many-to-One)
 - Belongs to a Property (Many-to-One)
+
+
+
+## Main Features
+
+
+### 1. User Management
+**Description:**  
+Handles user registration, authentication, and profile management. This feature ensures secure access to the platform through login/logout functionality and allows users to manage their personal information. It forms the foundation for all user interactions in the system.
+
+### 2. Property Management  
+**Description:**  
+Enables hosts to create, update, and manage property listings with details like descriptions, photos, and pricing. This core feature allows properties to be discovered and booked, serving as the main inventory of the platform.
+
+### 3. Booking System  
+**Description:**  
+Manages the reservation process including availability checks, date selection, and confirmation. This critical feature facilitates transactions between guests and hosts while preventing double bookings through conflict detection.
+
+### 4. Payment Processing  
+**Description:**  
+Handles secure financial transactions for bookings, including payment verification and receipt generation. This feature enables monetization of the platform while ensuring PCI compliance for sensitive financial data.
+
+### 5. Review System  
+**Description:**  
+Allows guests to leave ratings and feedback for properties they've visited. This feature builds trust in the community by providing social proof and quality indicators for listings.
+
+### 6. API Documentation  
+**Description:**  
+Provides comprehensive OpenAPI documentation for both REST and GraphQL interfaces. This feature enables easier integration for frontend developers and third-party services.
+
+### 7. Database Optimizations  
+**Description:**  
+Implements indexing and caching strategies to ensure fast query responses. This feature improves user experience by reducing load times during searches and other data-intensive operations.
