@@ -1,6 +1,42 @@
 # airbnb-clone-project
 
 # Front-End
+## Project Overview
+The Airbnb Clone Project is a real-world application designed to simulate the development of the robust booking platform Airbnb. It involves a deep dive into full-stack development, focusing on backend systems, database design, API development, and application security. This project enables learners to understand complex architectures, workflows, and collaborative team dynamics while building a scalable web applicatio
+
+## UI/UX Design Planning  
+### Goals
+- Make booking easy to understand
+- Keep the design clean and consistent
+- Work well on phones and computers
+- Load quickly
+
+### Main Features
+1. **Search** - Find places to stay with filters
+2. **Property Pages** - See photos, details, and reviews
+3. **Booking** - Simple checkout process
+4. **User Accounts** - Sign up, log in, manage trips
+
+### Key Pages
+
+| Page | What It Does | Important Parts |
+|------|-------------|-----------------|
+| **Property Listing View** | Shows places to stay | Search box, Filters, List of properties |
+| **Listing Detailed View,** | Shows details about one place | Big photos, Price, Book button, Reviews |
+| **Simple Checkout View** | Book your stay | Dates, Payment, Confirm button |
+
+### Why Good Design Matters
+- People book more when it's easy to use
+- Happy users come back again
+- Works for everyone (phone/computer)
+- Fewer mistakes when booking
+
+Simple rules:
+- Big, clear buttons
+- Show important info first
+- Same style everywhere
+- Fast loading
+- Easy to use on mobile
 
 # Back-End
 ## Project Overview
