@@ -75,3 +75,63 @@ The Airbnb Clone Project is a real-world application designed to simulate the de
 | **Redis** | Caching & messaging | Fast in-memory data storage, pub/sub |
 | **Docker** | Containerization | Consistent environments, easy deployment |
 | **CI/CD Pipelines** | Automation | Automated testing, continuous deployment |
+
+## Core Entities
+
+### 1. User
+**Important Fields:**
+- `id` (Primary Key)
+- `username` (Unique identifier)
+- `email` (Unique, for communication)
+- `password_hash` (Secure authentication)
+- `user_type` (Host/Guest)
+
+**Relationships:**
+- A User can own multiple Properties (One-to-Many)
+- A User can make multiple Bookings (One-to-Many)
+- A User can write multiple Reviews (One-to-Many)
+
+---
+
+### 2. Property
+**Important Fields:**
+- `id` (Primary Key)
+- `title` (Property name/heading)
+- `description` (Detailed information)
+- `price_per_night` (Monetary value)
+- `host_id` (Foreign Key to User)
+
+**Relationships:**
+- Belongs to a User (the host) (Many-to-One)
+- Can have multiple Bookings (One-to-Many)
+- Can have multiple Reviews (One-to-Many)
+
+---
+
+### 3. Booking
+**Important Fields:**
+- `id` (Primary Key)
+- `start_date` (Booking beginning)
+- `end_date` (Booking conclusion)
+- `total_price` (Calculated amount)
+- `guest_id` (Foreign Key to User)
+- `property_id` (Foreign Key to Property)
+
+**Relationships:**
+- Belongs to a User (the guest) (Many-to-One)
+- Belongs to a Property (Many-to-One)
+- Can have one Payment (One-to-One)
+
+---
+
+### 4. Review
+**Important Fields:**
+- `id` (Primary Key)
+- `rating` (Numerical score, e.g., 1-5)
+- `comment` (Text feedback)
+- `user_id` (Foreign Key to User)
+- `property_id` (Foreign Key to Property)
+
+**Relationships:**
+- Belongs to a User (the reviewer) (Many-to-One)
+- Belongs to a Property (Many-to-One)
