@@ -16,7 +16,7 @@ The Airbnb Clone Project is a real-world application designed to simulate the de
  - **Docker:** Containerization tool for consistent development and deployment environments.  
  - **CI/CD Pipelines:** Automated pipelines for testing and deploying code changes.  
 
-### Team ROles
+### Team Roles
 
 #### **Backend Developer**
 - Implement API endpoints using Django REST Framework
