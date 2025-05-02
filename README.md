@@ -24,44 +24,23 @@ The Airbnb Clone Project is a real-world application designed to simulate the de
 - Ensure secure authentication and authorization
 - Optimize API performance and data validation
 
-**Key Tasks:**
-- Develop RESTful & GraphQL APIs
-- Implement user management system
-- Create property listing and booking systems
-- Integrate payment processing
 
 ### Database Administrator (DBA)
 - Design and optimize database schemas
 - Ensure data integrity and security
 - Implement performance optimizations
 
-**Key Tasks:**
-- Design PostgreSQL database structure
-- Create indexes for frequently queried data
-- Monitor and optimize query performance
-- Implement database backup strategies
 
 ### DevOps Engineer
 - Manage deployment and infrastructure
 - Ensure system reliability and scalability
 - Implement CI/CD pipelines
 
-**Key Tasks:**
-- Configure Docker containers
-- Set up Redis caching
-- Implement Celery for async tasks
-- Manage deployment automation
-
 ### QA Engineer
 - Ensure software quality and reliability
 - Identify and report bugs
 - Validate system performance
 
-**Key Tasks:**
-- Write and execute test cases
-- Perform API testing
-- Conduct security testing
-- Validate performance benchmarks
 
 ## Technology Stack
 
