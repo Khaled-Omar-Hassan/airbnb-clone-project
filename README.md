@@ -19,7 +19,6 @@ The Airbnb Clone Project is a real-world application designed to simulate the de
 ### Roles and Responsibilities
 
 #### **Backend Developer**
-**Responsibilities:**
 - Implement API endpoints using Django REST Framework
 - Design and develop business logic for core features
 - Ensure secure authentication and authorization
@@ -32,7 +31,6 @@ The Airbnb Clone Project is a real-world application designed to simulate the de
 - Integrate payment processing
 
 #### Database Administrator (DBA)
-**Responsibilities:**
 - Design and optimize database schemas
 - Ensure data integrity and security
 - Implement performance optimizations
@@ -44,7 +42,6 @@ The Airbnb Clone Project is a real-world application designed to simulate the de
 - Implement database backup strategies
 
 #### DevOps Engineer
-**Responsibilities:**
 - Manage deployment and infrastructure
 - Ensure system reliability and scalability
 - Implement CI/CD pipelines
@@ -56,7 +53,6 @@ The Airbnb Clone Project is a real-world application designed to simulate the de
 - Manage deployment automation
 
 #### QA Engineer
-**Responsibilities:**
 - Ensure software quality and reliability
 - Identify and report bugs
 - Validate system performance
