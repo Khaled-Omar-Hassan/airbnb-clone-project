@@ -55,7 +55,7 @@ The Airbnb Clone Project is a real-world application designed to simulate the de
 | **Docker** | Containerization | Consistent environments, easy deployment |
 | **CI/CD Pipelines** | Automation | Automated testing, continuous deployment |
 
-## Core Entities
+## Database Design
 
 ### 1. User
 **Important Fields:**
@@ -117,7 +117,7 @@ The Airbnb Clone Project is a real-world application designed to simulate the de
 
 
 
-## Main Features
+## Feature Breakdown
 
 
 ### 1. User Management
